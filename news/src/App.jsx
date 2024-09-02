@@ -1,6 +1,6 @@
 
-import Result from "./components/Result"
-import Search from "./components/search"
+import Result from './components/Result'
+import Search from './components/Search'
 import { Routes, BrowserRouter, Route } from "react-router-dom"
 
 
