@@ -8,9 +8,9 @@ export const InputContext = createContext();
 // Definieren und Exportieren einer Provider-Komponente, die den Kontext zur Verfügung stellt.
 // `InputProvider` umschließt die Kinderkomponenten und stellt den Kontext zur Verfügung.
 export const InputProvider = ({ children }) => {
-    // Initialisieren eines Zustandswertes `input` mit dem Standardwert "TEST".
+    // Initialisieren eines Zustandswertes `input` mit dem Standardwert "".
     // `setInput` ist die Funktion, um diesen Zustand zu aktualisieren.
-    const [input, setInput] = useState("TEST");
+    const [input, setInput] = useState("");
 
     // Die Provider-Komponente gibt das `InputContext.Provider`-Element zurück.
     // Alle Kinderkomponenten, die von `InputProvider` umschlossen werden, haben Zugriff auf den Kontextwert.
